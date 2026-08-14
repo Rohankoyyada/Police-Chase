@@ -1,0 +1,279 @@
+fileFormatVersion: 2
+guid: 37622a3382cbf064689e3c86bcf4fe12
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PhotoshopExtension_Image_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 68
+        width: 101
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2718d3465f5582468af0344d3725271
+      internalID: 1456455852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhotoshopExtension_Image_12
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 65
+        width: 105
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927d4e1ae09171b4ea714570d50e10cb
+      internalID: -1482611232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhotoshopExtension_Image_17
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 83
+        width: 113
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999358a9df3a8b740a66af26a3219e24
+      internalID: -208789854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhotoshopExtension_Image_19
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 83
+        width: 111
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fdaefed64c0384cb109c22d831cc07
+      internalID: -443357332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9835218944baf93458ea0056f45bb97e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      PhotoshopExtension_Image_0: -487658349
+      PhotoshopExtension_Image_1: -1034031960
+      PhotoshopExtension_Image_10: 1456455852
+      PhotoshopExtension_Image_11: -1396329611
+      PhotoshopExtension_Image_12: -1482611232
+      PhotoshopExtension_Image_13: 348517570
+      PhotoshopExtension_Image_14: 1267660783
+      PhotoshopExtension_Image_15: 331577765
+      PhotoshopExtension_Image_16: -1348140375
+      PhotoshopExtension_Image_17: -208789854
+      PhotoshopExtension_Image_18: 1091058913
+      PhotoshopExtension_Image_19: -443357332
+      PhotoshopExtension_Image_2: 965309752
+      PhotoshopExtension_Image_20: 557539065
+      PhotoshopExtension_Image_21: 1840365850
+      PhotoshopExtension_Image_22: -1508213160
+      PhotoshopExtension_Image_23: 1604908157
+      PhotoshopExtension_Image_24: -1175617823
+      PhotoshopExtension_Image_25: 1473204683
+      PhotoshopExtension_Image_26: 652449095
+      PhotoshopExtension_Image_27: -1800268510
+      PhotoshopExtension_Image_28: 52775055
+      PhotoshopExtension_Image_29: -1643291381
+      PhotoshopExtension_Image_3: 171081684
+      PhotoshopExtension_Image_30: -1024629405
+      PhotoshopExtension_Image_31: 668641492
+      PhotoshopExtension_Image_32: -138793109
+      PhotoshopExtension_Image_33: 1697704589
+      PhotoshopExtension_Image_34: -1657151627
+      PhotoshopExtension_Image_35: -86153267
+      PhotoshopExtension_Image_36: -1578291379
+      PhotoshopExtension_Image_37: 794013278
+      PhotoshopExtension_Image_38: 1305554757
+      PhotoshopExtension_Image_39: -627126875
+      PhotoshopExtension_Image_4: -1737843373
+      PhotoshopExtension_Image_40: 1560814497
+      PhotoshopExtension_Image_41: -49034865
+      PhotoshopExtension_Image_42: 1411576927
+      PhotoshopExtension_Image_43: 2018432222
+      PhotoshopExtension_Image_44: 1599273859
+      PhotoshopExtension_Image_45: -1263015949
+      PhotoshopExtension_Image_5: -1489898224
+      PhotoshopExtension_Image_6: 1057796930
+      PhotoshopExtension_Image_7: 1540551821
+      PhotoshopExtension_Image_8: -703119361
+      PhotoshopExtension_Image_9: -1613956351
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
