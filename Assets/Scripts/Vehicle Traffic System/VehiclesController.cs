@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class VehiclesController : MonoBehaviour
 {
@@ -11,7 +11,7 @@ public class VehiclesController : MonoBehaviour
     private int currentIndex = 0;
     private float reachDistance = 0.2f;
 
-    // 🔑 EXPLICIT INITIALIZATION
+    //  EXPLICIT INITIALIZATION
     public void Initialize(WaypointPath path)
     {
         waypointPath = path;
@@ -33,12 +33,12 @@ public class VehiclesController : MonoBehaviour
         }
 
         currentIndex = 0;
-        transform.position = wayPoints[0].position;
     }
 
     void Update()
     {
-        if (wayPoints == null) return;
+        if (wayPoints == null || currentIndex >= wayPoints.Length) return;
+
         MoveandRotate();
     }
 
@@ -70,7 +70,7 @@ public class VehiclesController : MonoBehaviour
 
             if (currentIndex >= wayPoints.Length)
             {
-                Destroy(gameObject);
+                VehiclePoolManager.Instance.AddVehicleToPool(gameObject);
             }
         }
     }

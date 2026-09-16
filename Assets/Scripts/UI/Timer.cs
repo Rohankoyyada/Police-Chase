@@ -38,6 +38,6 @@ public class Timer : MonoBehaviour
         timer_Text.text = string.Format("{0:00}:{1:00}", minutes, seconds);
 
         // Visual warning if under 30 seconds
-        timer_Text.color = (timeToDisplay < 30f) ? Color.red : Color.white;
+        timer_Text.color = (timeToDisplay < 30f) ? Color.red : Color.black;
     }
 }
