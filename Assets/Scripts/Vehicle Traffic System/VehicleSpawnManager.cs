@@ -7,6 +7,8 @@ public class VehicleSpawnManager : MonoBehaviour
     public Transform[] spawnPoint;
     public float spawnRate = 3f;
 
+    [SerializeField] private VehiclePoolManager vehiclePool;
+
     private WaypointPath[] roadPaths;
 
     void Start()
@@ -35,16 +37,16 @@ public class VehicleSpawnManager : MonoBehaviour
 
     void SpawnSingleVehicle()
     {
-        int vehicleIndex = Random.Range(0, vehicles.Length);
         int roadIndex = Random.Range(0, roadPaths.Length);
 
         WaypointPath selectedRoad = roadPaths[roadIndex];
 
-        GameObject vehicleGO = Instantiate(
-            vehicles[vehicleIndex],
-            selectedRoad.spawnPoint.position,
-            selectedRoad.spawnPoint.rotation
-        );
+        GameObject vehicleGO = vehiclePool.GetVehicleFromPool();
+
+        vehicleGO.transform.position = selectedRoad.spawnPoint.position;
+        vehicleGO.transform.rotation = selectedRoad.spawnPoint.rotation;
+
+        vehicleGO.SetActive(true);
 
         VehiclesController controller =
             vehicleGO.GetComponent<VehiclesController>();
