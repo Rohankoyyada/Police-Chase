@@ -1,5 +1,7 @@
 using TMPro;
+using Unity.AppUI.UI;
 using UnityEngine;
+using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -9,6 +11,7 @@ public class GameManager : MonoBehaviour
     [Header("UI References")]
     public TextMeshProUGUI kill_Text;
     public GameObject gameOverPanel;
+    public GameObject startGamePanel;
     public Timer gameTimer;
     public EnemySpawner spawner;
 
@@ -19,6 +22,7 @@ public class GameManager : MonoBehaviour
     [Header("Game State")]
     public int kill_Count = 0;
     private int enemiesKilledInWave = 0;
+    private bool gameNotStarted = true;
 
     void Awake() { instance = this; }
 
@@ -27,6 +31,18 @@ public class GameManager : MonoBehaviour
         if (gameOverPanel != null)
             gameOverPanel.SetActive(false);
         StartNewWave(true); // First wave
+        StartedGameUi(gameNotStarted);
+    }
+
+    public void StartedGameUi(bool gameState)
+    {
+        startGamePanel.SetActive(gameState);
+    }
+
+    public void StartGameButtonInput()
+    {
+        gameNotStarted = false;
+        StartedGameUi(gameNotStarted);
     }
 
     public void StartNewWave(bool isFirstWave)
@@ -71,5 +87,10 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
